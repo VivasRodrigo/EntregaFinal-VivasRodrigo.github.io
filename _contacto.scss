@@ -1,0 +1,134 @@
+/**grids CONTACTO**/
+
+.gridcontacto
+{
+    display: grid;
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+    grid-template-areas:   
+                'gmensaje gdatos'
+                'gmensaje gmapa'
+                'gfooter gfooter';
+    grid-template-columns: 50% 50%;
+    grid-template-rows:50% 51% 25px;
+}
+
+.c3
+{
+    grid-area: gmensaje;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.c4
+{
+    grid-area: gdatos;
+    width: 100%;
+    height: 100%;
+}
+.c5
+{
+    grid-area: gmapa;
+    width: 100%;
+    height: 100%;
+}
+
+.c6
+{
+    grid-area: gfooter;
+    padding: 5px;
+    background-color: $colorfondo;
+    color: $colorbarra;
+    font-size: 15px;
+    font-style: italic;
+    font-family: $fuenteprincipal;
+    text-align: center;
+ 
+}
+
+.gmensajecontacto
+{
+   margin-left: 20%;
+   margin-top: 5%;
+}
+
+.gmsj
+{
+    width: 85%;
+    height: 6%;
+    border: $colorbarra 2px solid;
+    font-family: $fuenteprincipal;
+    font-style: italic;
+    font-size: 20px; 
+    border-radius: 10px;
+}
+
+.gmsj1
+{
+    width: 85%;
+    height: 50%;
+    border: $colorbarra 2px solid;
+    font-family: $fuenteprincipal;
+    font-style: italic;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.gboton
+{
+    color: $colorbarra;
+    background-color: rgba(137, 43, 226, 0.199);
+    border-radius: 5px;
+    font-size: 20px;   
+    width: 120px;
+}
+
+.gtablacontacto
+{
+    border: $colorbarra 2px solid;
+    border-radius: 10px;
+    width: 70%;
+    height: 70%;
+    background-color: $colorfondo2;
+    color: $colorbarra;
+    font-family: $fuenteprincipal;
+    padding-left: 5%;
+    padding-right: 5%;    
+    margin-left: 10%;
+    margin-top: 5%; 
+}
+
+.gtipocontacto
+{
+    width: 50%;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 22px;    
+}
+.gcontacto
+{
+    width: 100%;
+    text-align: right;
+    font-style: italic;
+    font-size: 18px;    
+}
+
+.gacontacto
+{
+    text-decoration: none;
+    color:$colorbarra;   
+    
+}
+
+.gmapa
+{   
+    border:$colorbarra 2px solid;
+    margin-left: 10%;
+    width: 70%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+

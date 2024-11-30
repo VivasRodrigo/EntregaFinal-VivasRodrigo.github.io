@@ -1,0 +1,498 @@
+@charset "UTF-8";
+h2 {
+  color: rgb(93, 16, 165);
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 35px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(202, 119, 235);
+}
+
+.ofertas {
+  text-align: center;
+}
+
+.imgofertas {
+  width: 80%;
+}
+
+.flexformat {
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.marcas {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  align-content: center;
+}
+
+.imgmarcas {
+  height: 80%;
+  width: 80%;
+  border: rgb(93, 16, 165) solid 1, 5px;
+}
+
+.imgmarcas:hover {
+  transform: translateY(-5px);
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+}
+
+.format {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.imgpagos {
+  width: 80%;
+  height: auto;
+  padding: 10px 0 30px 0;
+  margin-top: 15px;
+}
+
+/**grids CONTACTO**/
+.gridcontacto {
+  display: grid;
+  width: 100%;
+  height: 80%;
+  margin: 0 auto;
+  grid-template-areas: "gmensaje gdatos" "gmensaje gmapa" "gfooter gfooter";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 51% 25px;
+}
+
+.c3 {
+  grid-area: gmensaje;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.c4 {
+  grid-area: gdatos;
+  width: 100%;
+  height: 100%;
+}
+
+.c5 {
+  grid-area: gmapa;
+  width: 100%;
+  height: 100%;
+}
+
+.c6 {
+  grid-area: gfooter;
+  padding: 5px;
+  background-color: rgb(202, 119, 235);
+  color: rgb(93, 16, 165);
+  font-size: 15px;
+  font-style: italic;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.gmensajecontacto {
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.gmsj {
+  width: 85%;
+  height: 6%;
+  border: rgb(93, 16, 165) 2px solid;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.gmsj1 {
+  width: 85%;
+  height: 50%;
+  border: rgb(93, 16, 165) 2px solid;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.gboton {
+  color: rgb(93, 16, 165);
+  background-color: rgba(137, 43, 226, 0.199);
+  border-radius: 5px;
+  font-size: 20px;
+  width: 120px;
+}
+
+.gtablacontacto {
+  border: rgb(93, 16, 165) 2px solid;
+  border-radius: 10px;
+  width: 70%;
+  height: 70%;
+  background-color: white;
+  color: rgb(93, 16, 165);
+  font-family: sans-serif;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.gtipocontacto {
+  width: 50%;
+  text-align: left;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+.gcontacto {
+  width: 100%;
+  text-align: right;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.gacontacto {
+  text-decoration: none;
+  color: rgb(93, 16, 165);
+}
+
+.gmapa {
+  border: rgb(93, 16, 165) 2px solid;
+  margin-left: 10%;
+  width: 70%;
+  height: 80%;
+  border-radius: 10px;
+}
+
+.tablaprecios {
+  border-collapse: separate;
+  border-spacing: 10px 0px;
+  font-size: 18px;
+  color: rgb(93, 16, 165);
+  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+.tdtitulo {
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+}
+
+td {
+  width: 300px;
+  font-size: 16px;
+  text-align: center;
+}
+
+tr {
+  border: rgb(93, 16, 165) solid;
+}
+
+/**header FLEXBOX INDEX**/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(90deg, rgb(202, 119, 235) 0%, rgb(255, 255, 255) 8%, rgb(255, 255, 255) 92%, rgb(202, 119, 235) 100%);
+  height: auto;
+}
+
+.mensaje {
+  background-color: rgb(202, 119, 235);
+  text-align: left;
+  margin: 0 auto;
+  width: 80%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.msj {
+  color: white;
+  font-style: italic;
+  font-size: 18px;
+  font-family: sans-serif;
+  animation: movtext 15s linear infinite; /*animación*/
+}
+
+/*animación*/
+@keyframes movtext {
+  from {
+    transform: translateX(100%); /* Comienza desde la derecha */
+  }
+  to {
+    transform: translateX(-70%); /* Termina en la izquierda */
+  }
+}
+header {
+  background-color: rgb(202, 119, 235);
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+.flexheader {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header {
+  width: 20%;
+  text-align: left;
+}
+
+.logo {
+  width: 150px;
+  height: 135px;
+  margin-right: 20px;
+}
+
+.barra {
+  align-content: center;
+  width: 40%;
+  text-align: right;
+}
+
+nav {
+  overflow: hidden;
+  width: 100%;
+  text-align: right;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  overflow: hidden;
+  float: right;
+  margin-left: 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(93, 16, 165);
+  font-family: sans-serif;
+}
+
+a:hover {
+  font-weight: bold;
+  color: rgba(160, 16, 165, 0.678);
+}
+
+.buscar {
+  width: 20%;
+  text-align: right;
+  align-content: center;
+}
+
+.barrabusqueda {
+  border: rgb(93, 16, 165) hidden;
+  border-radius: 20px 20px 20px 20px;
+  font-family: sans-serif;
+  background-color: white;
+  font-size: 18px;
+  width: 90%;
+  padding: 2px;
+}
+
+footer {
+  padding: 5px;
+  background-color: rgb(202, 119, 235);
+  color: rgb(93, 16, 165);
+  font-size: 15px;
+  font-style: italic;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/**Media queris**/
+@media (min-width: 0px) and (max-width: 1070px) {
+  .mensaje {
+    width: 100%;
+  }
+  .msj {
+    font-size: 12px;
+    animation: movtext 15s linear infinite; /*animación*/
+  }
+  @keyframes movtext {
+    from {
+      transform: translateX(100%); /* Comienza desde la derecha */
+    }
+    to {
+      transform: translateX(-130%); /* Termina en la izquierda */
+    }
+  }
+  header {
+    height: auto;
+  }
+  .flexheader {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .header {
+    width: 110px;
+    height: 95px;
+    text-align: center;
+    margin: 0 auto;
+    align-content: center;
+  }
+  .logo {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    align-content: center;
+  }
+  .logo:hover {
+    width: 110px;
+    height: 95px;
+  }
+  .barra {
+    width: 80%;
+    margin: 0 auto;
+  }
+  nav {
+    width: 100%;
+  }
+  nav ul li {
+    overflow: hidden;
+    float: right;
+    margin-left: 5%;
+    margin-right: 10%;
+  }
+  nav ul li a {
+    font-size: 15px;
+    text-align: right;
+    margin: 0px;
+  }
+  .buscar {
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .barrabusqueda {
+    font-size: 12px;
+    width: 100%;
+    height: 25px;
+    text-align: left;
+  }
+  h2 {
+    font-size: 25px;
+    padding: 10px;
+  }
+  .imgofertas {
+    width: 100%;
+  }
+  .marcas {
+    width: 105px;
+    height: 105px;
+    margin: 0 auto;
+  }
+  .imgmarcas {
+    height: 80%;
+    width: 80%;
+    padding: 5%;
+  }
+  footer {
+    padding: 3px;
+    font-size: 12px;
+  }
+  .gridcontacto {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    grid-template-areas: "gmensaje" "gdatos" "gmapa" "gfooter";
+    grid-template-columns: 100%;
+    grid-template-rows: 50% auto auto 20px;
+  }
+  .c3 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .c5 {
+    text-align: center;
+  }
+  .c6 {
+    font-size: 12px;
+  }
+  .gmensajecontacto {
+    margin-left: 0%;
+  }
+  .gmsj {
+    width: 70%;
+    height: 6%;
+    border: rgb(93, 16, 165) 2px solid;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  .gmsj1 {
+    width: 70%;
+    height: 150px;
+    border: rgb(93, 16, 165) 2px solid;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  .gboton {
+    color: rgb(93, 16, 165);
+    background-color: rgba(137, 43, 226, 0.329);
+    border-radius: 5px;
+    font-size: 14px;
+    width: 75px;
+  }
+  .gtablacontacto {
+    border: rgb(93, 16, 165) 2px solid;
+    border-radius: 10px;
+    width: 70%;
+    height: 50%;
+    background-color: white;
+    color: rgb(93, 16, 165);
+    font-family: sans-serif;
+    padding: 5px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .gtipocontacto {
+    font-size: 14px;
+    text-align: center;
+  }
+  .gcontacto {
+    font-size: 12px;
+    text-align: center;
+  }
+  .gmapa {
+    margin: 0 auto;
+    width: 70%;
+    height: 250px;
+    margin: 5%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

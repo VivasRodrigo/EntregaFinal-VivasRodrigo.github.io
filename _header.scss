@@ -1,0 +1,142 @@
+
+/**header FLEXBOX INDEX**/
+*   
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background: $colorfondobody;
+    height: auto;
+}
+.mensaje
+{
+    background-color: $colorfondo;
+    text-align: left;
+    margin: 0 auto;
+    width: 80%; 
+    overflow: hidden;
+    white-space: nowrap; 
+  }
+  
+.msj
+  {
+    color: $colorfondo2;
+    font-style: italic;
+    font-size: 18px;
+    font-family:$fuenteprincipal;
+    animation: movtext 15s linear infinite;  /*animación*/
+  }
+  
+  /*animación*/
+  @keyframes movtext {
+    from {
+      transform: translateX(100%);  /* Comienza desde la derecha */
+    }
+    to {
+      transform: translateX(-70%);  /* Termina en la izquierda */
+    }
+  }
+
+header
+{
+    background-color: $colorfondo;
+    overflow: hidden;
+    width: 100%;  
+    height: auto;    
+}
+
+.flexheader
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.header
+{
+    width: 20%;
+    text-align: left;
+}
+
+.logo
+{
+    width: 150px;
+    height: 135px;
+    margin-right: 20px;
+}
+
+.barra
+{
+    align-content:center ;
+    width: 40%; 
+    text-align: right;
+}
+
+nav
+{   
+    overflow: hidden;
+    width: 100%;
+    text-align: right;
+}
+
+nav ul
+{
+    list-style: none;      
+}
+
+nav ul li
+{
+    overflow: hidden;
+    float: right;
+    margin-left: 40px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 22px;
+    color: $colorbarra;
+    font-family: $fuenteprincipal;
+}
+
+a:hover
+{
+   font-weight: bold;
+   color:$colorbarrahover ;
+}
+
+.buscar
+{
+    width: 20%;
+    text-align: right;
+    align-content:center ;
+}
+
+.barrabusqueda
+{
+    border: $colorbarra hidden;
+    border-radius: 20px 20px 20px 20px;
+    font-family:  $fuenteprincipal;
+    background-color: $colorfondo2;
+    font-size: 18px;
+    width: 90%;
+    padding: 2px;
+}
+
+footer  
+{
+    padding: 5px;
+    background-color: $colorfondo;
+    color: $colorbarra;
+    font-size: 15px;
+    font-style: italic;
+    font-family: $fuenteprincipal;
+    text-align: center;
+}
+
+
