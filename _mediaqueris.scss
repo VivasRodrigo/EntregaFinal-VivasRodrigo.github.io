@@ -82,7 +82,7 @@
 
     nav ul li a
     {
-        font-size: 15px;
+        font-size: 16px;
         text-align: right;
         margin: 0px;
     }
@@ -104,7 +104,7 @@
 
     h2 
     {
-        font-size: 25px;
+        font-size: 20px;
         padding: 10px;
     }
 
@@ -212,7 +212,7 @@
         font-family: $fuenteprincipal;
         padding: 5px;   
         margin: 0 auto;
-        margin-top: 10px;       
+        margin-top: 5px;       
     }
 
     .gtipocontacto
@@ -232,5 +232,10 @@
         width: 70%;
         height: 250px;
         margin: 5%;
+    }
+
+    .tdtitulo
+    {
+        font-size: 18px;
     }
 }

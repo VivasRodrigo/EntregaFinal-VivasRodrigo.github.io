@@ -45,7 +45,6 @@
     font-style: italic;
     font-family: $fuenteprincipal;
     text-align: center;
- 
 }
 
 .gmensajecontacto
@@ -105,21 +104,23 @@
     width: 50%;
     text-align: left;
     font-weight: bolder;
-    font-size: 22px;    
+    font-size: 22px;  
+    padding: 0px;
+  
 }
 .gcontacto
 {
     width: 100%;
     text-align: right;
     font-style: italic;
-    font-size: 18px;    
+    font-size: 18px;   
+    padding: 0px;
 }
 
 .gacontacto
 {
     text-decoration: none;
     color:$colorbarra;   
-    
 }
 
 .gmapa
