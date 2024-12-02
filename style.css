@@ -1,12 +1,12 @@
 @charset "UTF-8";
 h2 {
-  color: rgb(93, 16, 165);
+  color: rgb(103, 65, 136);
   font-family: sans-serif;
   font-weight: bolder;
   font-size: 35px;
   padding: 10px;
   text-align: center;
-  background-color: rgb(202, 119, 235);
+  background-color: rgb(239, 182, 200);
 }
 
 .ofertas {
@@ -38,7 +38,7 @@ h2 {
 .imgmarcas {
   height: 80%;
   width: 80%;
-  border: rgb(93, 16, 165) solid 1, 5px;
+  border: rgb(103, 65, 136) solid 1, 5px;
 }
 
 .imgmarcas:hover {
@@ -92,8 +92,8 @@ h2 {
 .c6 {
   grid-area: gfooter;
   padding: 5px;
-  background-color: rgb(202, 119, 235);
-  color: rgb(93, 16, 165);
+  background-color: rgb(239, 182, 200);
+  color: rgb(103, 65, 136);
   font-size: 15px;
   font-style: italic;
   font-family: sans-serif;
@@ -108,7 +108,7 @@ h2 {
 .gmsj {
   width: 85%;
   height: 6%;
-  border: rgb(93, 16, 165) 2px solid;
+  border: rgb(103, 65, 136) 2px solid;
   font-family: sans-serif;
   font-style: italic;
   font-size: 20px;
@@ -118,7 +118,7 @@ h2 {
 .gmsj1 {
   width: 85%;
   height: 50%;
-  border: rgb(93, 16, 165) 2px solid;
+  border: rgb(103, 65, 136) 2px solid;
   font-family: sans-serif;
   font-style: italic;
   font-size: 20px;
@@ -126,7 +126,7 @@ h2 {
 }
 
 .gboton {
-  color: rgb(93, 16, 165);
+  color: rgb(103, 65, 136);
   background-color: rgba(137, 43, 226, 0.199);
   border-radius: 5px;
   font-size: 20px;
@@ -134,12 +134,12 @@ h2 {
 }
 
 .gtablacontacto {
-  border: rgb(93, 16, 165) 2px solid;
+  border: rgb(103, 65, 136) 2px solid;
   border-radius: 10px;
   width: 70%;
   height: 70%;
   background-color: white;
-  color: rgb(93, 16, 165);
+  color: rgb(103, 65, 136);
   font-family: sans-serif;
   padding-left: 5%;
   padding-right: 5%;
@@ -163,11 +163,11 @@ h2 {
 
 .gacontacto {
   text-decoration: none;
-  color: rgb(93, 16, 165);
+  color: rgb(103, 65, 136);
 }
 
 .gmapa {
-  border: rgb(93, 16, 165) 2px solid;
+  border: rgb(103, 65, 136) 2px solid;
   margin-left: 10%;
   width: 70%;
   height: 80%;
@@ -178,7 +178,7 @@ h2 {
   border-collapse: separate;
   border-spacing: 10px 0px;
   font-size: 18px;
-  color: rgb(93, 16, 165);
+  color: rgb(103, 65, 136);
   font-family: sans-serif;
   margin-left: auto;
   margin-right: auto;
@@ -195,12 +195,10 @@ td {
   width: 300px;
   font-size: 16px;
   text-align: center;
- 
 }
 
 tr {
-  border: rgb(93, 16, 165) solid;
-   maring: 2px;
+  border: rgb(103, 65, 136) solid;
 }
 
 /**header FLEXBOX INDEX**/
@@ -210,12 +208,12 @@ tr {
 }
 
 body {
-  background: linear-gradient(90deg, rgb(202, 119, 235) 0%, rgb(255, 255, 255) 8%, rgb(255, 255, 255) 92%, rgb(202, 119, 235) 100%);
+  background: linear-gradient(90deg, rgba(239, 182, 200, 0.6) 0%, rgb(255, 255, 255) 8%, rgb(255, 255, 255) 92%, rgba(239, 182, 200, 0.6) 100%);
   height: auto;
 }
 
 .mensaje {
-  background-color: rgb(202, 119, 235);
+  background-color: rgb(239, 182, 200);
   text-align: left;
   margin: 0 auto;
   width: 80%;
@@ -241,7 +239,7 @@ body {
   }
 }
 header {
-  background-color: rgb(202, 119, 235);
+  background-color: rgb(239, 182, 200);
   overflow: hidden;
   width: 100%;
   height: auto;
@@ -290,7 +288,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   font-size: 22px;
-  color: rgb(93, 16, 165);
+  color: rgb(103, 65, 136);
   font-family: sans-serif;
 }
 
@@ -306,7 +304,7 @@ a:hover {
 }
 
 .barrabusqueda {
-  border: rgb(93, 16, 165) hidden;
+  border: rgb(103, 65, 136) hidden;
   border-radius: 20px 20px 20px 20px;
   font-family: sans-serif;
   background-color: white;
@@ -317,8 +315,8 @@ a:hover {
 
 footer {
   padding: 5px;
-  background-color: rgb(202, 119, 235);
-  color: rgb(93, 16, 165);
+  background-color: rgb(239, 182, 200);
+  color: rgb(103, 65, 136);
   font-size: 15px;
   font-style: italic;
   font-family: sans-serif;
@@ -447,7 +445,7 @@ footer {
   .gmsj {
     width: 70%;
     height: 6%;
-    border: rgb(93, 16, 165) 2px solid;
+    border: rgb(103, 65, 136) 2px solid;
     font-family: sans-serif;
     font-style: italic;
     font-size: 16px;
@@ -456,26 +454,26 @@ footer {
   .gmsj1 {
     width: 70%;
     height: 150px;
-    border: rgb(93, 16, 165) 2px solid;
+    border: rgb(103, 65, 136) 2px solid;
     font-family: sans-serif;
     font-style: italic;
     font-size: 16px;
     border-radius: 10px;
   }
   .gboton {
-    color: rgb(93, 16, 165);
+    color: rgb(103, 65, 136);
     background-color: rgba(137, 43, 226, 0.329);
     border-radius: 5px;
     font-size: 14px;
     width: 75px;
   }
   .gtablacontacto {
-    border: rgb(93, 16, 165) 2px solid;
+    border: rgb(103, 65, 136) 2px solid;
     border-radius: 10px;
     width: 70%;
     height: 50%;
     background-color: white;
-    color: rgb(93, 16, 165);
+    color: rgb(103, 65, 136);
     font-family: sans-serif;
     padding: 5px;
     margin: 0 auto;
