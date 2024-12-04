@@ -238,7 +238,7 @@ body {
     transform: translateX(100%); /* Comienza desde la derecha */
   }
   to {
-    transform: translateX(-70%); /* Termina en la izquierda */
+    transform: translateX(-80%); /* Termina en la izquierda */
   }
 }
 header {
