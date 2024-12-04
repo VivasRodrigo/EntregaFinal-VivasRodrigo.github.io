@@ -67,7 +67,7 @@ h2 {
   margin: 0 auto;
   grid-template-areas: "gmensaje gdatos" "gmensaje gmapa" "gfooter gfooter";
   grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 51% 25px;
+  grid-template-rows: 50% 51% auto;
 }
 
 .c3 {
@@ -151,7 +151,7 @@ h2 {
   width: 50%;
   text-align: left;
   font-weight: bolder;
-  font-size: 22px;
+  font-size: 20px;
   padding: 0px;
 }
 
@@ -160,7 +160,7 @@ h2 {
   text-align: right;
   font-style: italic;
   font-size: 18px;
-  padding: 0px;
+  padding: 2px;
 }
 
 .gacontacto {
@@ -229,7 +229,7 @@ body {
   font-style: italic;
   font-size: 18px;
   font-family: sans-serif;
-  animation: movtext 15s linear infinite; /*animación*/
+  animation: movtext 20s linear infinite; /*animación*/
 }
 
 /*animación*/
@@ -238,7 +238,7 @@ body {
     transform: translateX(100%); /* Comienza desde la derecha */
   }
   to {
-    transform: translateX(-80%); /* Termina en la izquierda */
+    transform: translateX(-95%); /* Termina en la izquierda */
   }
 }
 header {
